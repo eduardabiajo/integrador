@@ -1,115 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-theme="dark">
-<head>
-    <meta charset="UTF-8">
+<html lang="pt-BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Conexão Feminina! </title>
+    <title>Conexão Feminina</title>
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- STYLES -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Conexão<span>Feminina</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre Nós</a></li>
+            <li><a class="title" href="#services">Produtos</a></li>
+            <li><a class="title" href="#questions">Dúvidas</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
 
-</head>
-<body>
-    <header class="header">
-        <nav class="header-nav">
-            <ul class="menu menu-principal">
-                <li class="menu-item">  
-                   <a href="#inicio" class="menu-link active"> Início </a>  
-                </li>
-                <li class="menu-item"> 
-                   <a href="#historia" class="menu-link"> História </a> 
-                </li>
-                <li class="menu-item">
-                    <a href="#doe" class="menu-link"> Como doar </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#receba" class="menu-link"> Como receber </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#cabelos" class="menu-link"> Tipos de cabelo </a>
-                </li>
-                <li class="menu-item">
-                    <a href="#contato" class="menu-link"> Contate-nos </a>
-                </li>
-            </ul>
-        </nav> <!-- FIM HEADER NAV -->
-        <div class="header-logo">
-            <a href="#home">
-                <img src="LOGO" alt="" class="logo">
-            </a>
-        </div> <!-- FIM HEADER LOGO -->
-        <div class="header-toggle">
-            <i id="toggleTheme" class="bi bi-sun-fill"></i>
-        </div> <!-- FIM HEADER TOGGLE -->
-    </header>  <!-- FIM header -->
+    <main>
+        <!-- HOME -->
+        <section class="section" id="home">
+            <div class="container grid">
+                <div class="image">
+                    <img src="img/mulher-cabelo.jpg" alt="Mulher loira virada para o lado">
+                </div>
+                <div class="text">
+                    <h2 class="title"><b>Transforme seus fios em esperança:</b> doe cabelo, espalhe amor.</h2>
+                    <p>
+                        Conectando mulheres dispostas a doar cabelos a quem precisa, promovendo esperança e solidariedade em tratamentos capilares.
+                    </p>
+                    <a class="button" href="#">Saiba mais</a>
+                </div>
+            </div>  
+        </section>
 
+        <div class="divider-1"></div>
 
-    <!-- MENU MOBILE -->
-    <nav class="nav-mobile">
-        <ul class="menu menu-mobile">
-            <li class="menu-item">
-                <a href="#inicio" class="menu-link active">
-                    <i class="bi bi-house-door"></i>
-                    <span class="menu-text">Início</span>
-                </a>
-            </li>
+        <!-- ABOUT -->
+        <section class="section" id="about">
+        <div class="container grid">
+            <div class="image">
+                <img src="img/tipos-cabelo.jpeg" alt="Mulheres diferentes com diferentes tipos de cabelos.">
+            </div>
+            <div class="text">
+                <h2 class="title">Sobre nós</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.Necessitatibus deleniti perferendis vel molestiae soluta, quaeratbeatae dicta ducimus praesentium architecto harum dodistinctio illo earum assumenda itaque. Omnis, quam repellat.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iureillum ratione impedit quae eum quis adipisci asperiores, estdoloribus distinctio excepturi minima eius dolore! Perferendisaborum illo aspernatur repellendus ipsum.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sedquos. Provident, quae.
+                </p>
+            </div>
+        </div>
+      </section>
 
-            <li class="menu-item">
-                <a href="#historia" class="menu-link">
-                    <i class="bi bi-book"></i>
-                    <span class="menu-text">História</span>
-                </a>
-            </li>
+      <div class="divider-2"></div>
 
-            <li class="menu-item">
-                <a href="#doe" class="menu-link">
-                    <i class="bi bi-archive"></i>
-                    <span class="menu-text">Como doar</span>
-                </a>
-            </li>
-
-            <li class="menu-item">
-                <a href="#receba" class="menu-link">
-                    <i class="bi bi-mailbox-flag"></i>
-                    <span class="menu-text">Como receber</span>
-                </a>
-            </li>
-
-            <li class="menu-item">
-                <a href="#cabelos" class="menu-link">
-                    <i class="menu-icon bi bi-window-stack"></i>
-                    <span class="menu-text">Tipos de cabelo</span>
-                </a>
-            </li>
-
-            <li class="menu-item">
-                <a href="#contato" class="menu-link">
-                    <i class="bi bi-telephone"></i>
-                    <span class="menu-text">Contate-nos</span>
-                </a>
-            </li>
-        </ul>
-    </nav> <!-- FIM NAV MOBILE -->
-
-
-    <main id="home">
-        <div class="main-content">
-            <h1>Transforme Seu Cabelo em Esperança!</h1>
-            <p>Julia, São Paulo - SP, Advogada</p>
-
-            <!-- REDES SOCIAIS-->
-            <ul class="menu menu-social">
-                <li>
-                    <a href="" class="menu-link" target="_blank">
-                        <i class="menu-icon bi bi-instagram"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="" class="menu-link" target="_blank">
-                        <i class="menu-icon bi bi-github"></i>
-                    </a>
-                </li>
-            </ul> <!-- FIM REDES SOCIAIS-->
-
-</body>
-</html>
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com aproximadamente 2 anos de mercado, o <strong>Conexão Femninina</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos cuidadosos e resultados indiscutíveis.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <div class="icon1">
+                <svg viewBox="0 0 366.34 366.34" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#845161;}.cls-3{fill:#69303a;}.cls-4{fill:none;stroke:#00214e;stroke-miterlimit:10;}.cls-5{fill:url(#linear-gradient-2);}.cls-6{fill:url(#linear-gradient-3);}.cls-7{fill:#00214e;}.cls-8{fill:#ffffff;}</style><linearGradient id="linear-gradient" x1="36.18" y1="247.08" x2="272.6" y2="27.34" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#315676"></stop><stop offset="1" stop-color="#e1b9e0"></stop></linearGradient><linearGradient id="linear-gradient-2" x1="61.55" y1="288.24" x2="288.03" y2="288.24" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#16243f"></stop><stop offset="1" stop-color="#6878b1"></stop></linearGradient><linearGradient id="linear-gradient-3" x1="118.43" y1="187.71" x2="192.03" y2="45.33" xlink:href="#linear-gradient"></linearGradient></defs><title>Artboards_Diversity_Avatars_by_Netguru</title><path class="cls-1" d="M264.76,132.16c0,6.74-8.58,12.55-9.84,18.92-1.3,6.57,4.38,15.21,1.88,21.25s-12.71,8.23-16.36,13.69-1.75,15.68-6.42,20.34-14.84,2.73-20.34,6.41-7.54,13.82-13.69,16.37-14.68-3.18-21.25-1.89c-6.37,1.27-12.18,9.85-18.92,9.85s-12.55-8.58-18.92-9.85c-6.56-1.29-15.21,4.39-21.25,1.89s-8.22-12.71-13.68-16.37S90.29,211,85.62,206.36,82.9,191.52,79.21,186s-13.81-7.54-16.36-13.69,3.18-14.68,1.88-21.25c-1.26-6.37-9.84-12.18-9.84-18.92s8.58-12.55,9.84-18.92C66,106.68,60.35,98,62.85,92s12.7-8.22,16.36-13.68S81,62.63,85.62,58s14.84-2.73,20.35-6.41,7.54-13.81,13.68-16.36,14.69,3.18,21.25,1.88c6.37-1.26,12.18-9.84,18.92-9.84s12.55,8.58,18.92,9.84c6.57,1.3,15.21-4.39,21.25-1.88s8.23,12.7,13.69,16.36S229.36,53.29,234,58s2.72,14.84,6.41,20.35S254.25,85.85,256.8,92s-3.18,14.69-1.88,21.25C256.18,119.61,264.76,125.42,264.76,132.16Z"></path><path class="cls-2" d="M288,298.37a184.56,184.56,0,0,1-226.48-1l48.66-22.81a47.68,47.68,0,0,0,4.35-2.34l1.12-.7c.4-.25.79-.51,1.18-.78a46.54,46.54,0,0,0,14.67-16.47c4-7.55,5.32-15.89,5.38-24.39,0-5.72-.31-11.44-.37-17.17q-.06-4.75-.1-9.51l2,1,5.2,2.69,30.29,5.15,31.12,5.3.94,32,.47,15.87,11.47,4.67,9,3.64Z"></path><path class="cls-3" d="M206,249.32A60.08,60.08,0,0,1,175.9,247c-21.58-7.25-36.11-24.74-37.48-42.76l5.2,2.69,30.29,5.15,31.12,5.3Z"></path><circle class="cls-2" cx="107.44" cy="171.19" r="17"></circle><circle class="cls-3" cx="113.44" cy="169.19" r="17"></circle><path class="cls-2" d="M230.35,144.41c12.46,43.14-11.79,93.25-30.26,95.3-44.63,5-76.34-17.79-88.8-60.93s4.11-85.82,37-95.31S217.9,101.26,230.35,144.41Z"></path><path class="cls-4" d="M194.45,154.64a53,53,0,0,0,2.48,10.49c1.14,3,2.62,4.82,4.63,7.34a16.68,16.68,0,0,1,1.82,2.66c2.77,5.34-.11,11.61-6.28,12l-3.81.23"></path><path class="cls-4" d="M179.36,181.07a3.15,3.15,0,0,0,2.31,5.78"></path><path class="cls-4" d="M201.48,139.13A31.13,31.13,0,0,1,224.33,137"></path><path class="cls-4" d="M146.37,142.83a36.73,36.73,0,0,1,31.22-1"></path><path class="cls-5" d="M288,298.37a184.56,184.56,0,0,1-226.48-1l48.66-22.81a46.83,46.83,0,0,0,6.65-3.82c.64-.44,1.28-.9,1.89-1.38a46.35,46.35,0,0,0,12.78-15.09,44.69,44.69,0,0,0,4.64-14.48,28.66,28.66,0,0,0,2.22,1.94A95.14,95.14,0,0,0,158.21,253a99,99,0,0,0,10.46,3.69,93.52,93.52,0,0,0,33,3.49c1.54-.12,3.09-.27,4.63-.38l.15,5.08v.33l12.1,4.92Z"></path><path class="cls-4" d="M160,169.36a10.36,10.36,0,0,0,11-10"></path><path class="cls-4" d="M203.88,157.17a9.07,9.07,0,0,0,3.3,6.78,26.81,26.81,0,0,0,6.67,4"></path><path class="cls-4" d="M153,199.43a25.58,25.58,0,0,1,4.57-5.64,24.56,24.56,0,0,1,13.22-6.25"></path><line class="cls-4" x1="178.68" y1="119.95" x2="202.35" y2="119.95"></line><line class="cls-4" x1="172.9" y1="127.77" x2="202.35" y2="127.77"></line><path class="cls-6" d="M205.08,102.78c.28,3.94-4.65,4.11-7.05,1.53-.62-.67-1.06-1.49-1.69-2.15a2.42,2.42,0,0,0-2.43-.82,2.83,2.83,0,0,0-1.26,1.16c-1.94,2.88-2.18,6.62-3.62,9.73a12.23,12.23,0,0,1-7.56,6.42c-5.73,1.6-10.35-1.73-12.51-6.82-.54-1.27-1.72-3.63-3.46-2.72-2.11,1.11-2.13,4.61-2.58,6.65a51.66,51.66,0,0,1-1.89,6.92,18.7,18.7,0,0,1-8.92,10.4c-5.56,2.91-16.69,3.46-19.32-3.58a12.57,12.57,0,0,0-1-2.44,2.47,2.47,0,0,0-2.14-1.29,1.76,1.76,0,0,0-.57.13,2.59,2.59,0,0,0-1.26,1.29,6.83,6.83,0,0,0-.5,2.37c-.39,4.4-1,9-3,13s-6,7.53-10.42,8.16a5.34,5.34,0,0,1-4.84-1.58c-2.4-2.86-1.28-8.24-1-11.65,1.11-12.85,5-25.68,12.31-36.38,6.61-9.63,16.1-17.17,27.4-20.43,19.32-5.58,40,1.88,56.05,17.9l0,.06A11,11,0,0,1,205.08,102.78Z"></path><path class="cls-7" d="M203.93,98.64h0c-19.21-4.3-41.56-2.36-56.4,6.79-25.8,15.91-31.5,27.91-39.38,40.58l-.34.56c0-.71,0-1.43,0-2.15.34-30.66,15.53-56.67,40-63.74,19.32-5.58,40,1.88,56.05,17.9Z"></path><path class="cls-8" d="M164,198.2a1.85,1.85,0,0,1,2.68-.51c2.08,1.47,5.88,4.56,11.28,5.64,7.36,1.46,13.75-1.48,15.27.42.86,1.07-.19,2.37-2.2,4.05a19.74,19.74,0,0,1-14.86,3.68c-7.08-1.32-12.4-9.53-12.4-12.43A1.66,1.66,0,0,1,164,198.2Z"></path><path class="cls-7" d="M161.85,153c6.1-.07,6.28,9.26.18,9.43h-.27c-6.1.07-6.28-9.25-.18-9.42h.27Z"></path><path class="cls-7" d="M212.09,151.35c5.66-.07,5.83,8.59.17,8.74H212c-5.67.06-5.84-8.59-.17-8.75h.25Z"></path></g></svg>
+              </div>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon2">
+                <svg viewBox="0 0 366.34 366.34" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#00214e;}.cls-2{fill:#f2d4cf;}.cls-3{fill:#daaea8;}.cls-4{fill:#f2a196;}.cls-5{fill:none;stroke:#00214e;stroke-miterlimit:10;}.cls-6{fill:#ffffff;}.cls-7{fill:url(#linear-gradient);}.cls-8{fill:url(#linear-gradient-2);}</style><linearGradient id="linear-gradient" x1="135.61" y1="137.64" x2="164.83" y2="68.33" gradientUnits="userSpaceOnUse"><stop offset="0.29" stop-color="#00214e"></stop><stop offset="0.51" stop-color="#6878b1"></stop><stop offset="0.79" stop-color="#00214e"></stop></linearGradient><linearGradient id="linear-gradient-2" x1="116.11" y1="127.57" x2="182.66" y2="46.55" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff2609"></stop><stop offset="0.17" stop-color="#ff8500"></stop><stop offset="0.36" stop-color="#ffed00"></stop><stop offset="0.55" stop-color="#00830d"></stop><stop offset="0.72" stop-color="#004aff"></stop><stop offset="1" stop-color="#81008c"></stop></linearGradient></defs><title>Artboards_Diversity_Avatars_by_Netguru</title><path class="cls-1" d="M244.67,107.86c-4.24-19.92-6-35.11-23.19-47.8a74.19,74.19,0,0,0-14.75-8.43,71.47,71.47,0,0,0-33.59-5.75A109.1,109.1,0,0,0,153,49.55a106.54,106.54,0,0,0-26.74,11.36A58.94,58.94,0,0,0,110.06,75c-6.31,8.32-10.83,18.44-14.27,29.18-5.18,16.15-8,33.72-10.79,48.71C80.15,178.4,75.81,204,71.46,229.6c29.94,3,186.24,2.11,186.24,2.11S254.12,152.15,244.67,107.86ZM170.5,128.3l-16.8-5.43,50.66-19,3.71,2.06Z"></path><path class="cls-2" d="M296.41,282.35a184.56,184.56,0,0,1-226.48-1l48.66-22.81a47.68,47.68,0,0,0,4.35-2.34l1.12-.7c.4-.25.79-.51,1.18-.78a46.54,46.54,0,0,0,14.67-16.47c4-7.55,5.32-15.89,5.38-24.39,0-5.72-.31-11.44-.37-17.17q-.06-4.76-.1-9.51l2,1,5.2,2.69L182.29,196l31.12,5.3.94,32,.47,15.87,11.47,4.67,9,3.64Z"></path><path class="cls-3" d="M214.16,225.61c-2.72,1.68-5.29,2.47-7.54,2.23-14.79-1.59-43.64-13.18-61.8-34.63q0-1.58-.06-3.15-.06-4.76-.1-9.51l2,1,5.2,2.69,30.29,5.15,31.12,5.3Z"></path><path class="cls-4" d="M296.41,282.35a184.56,184.56,0,0,1-226.48-1l48.66-22.81a47.68,47.68,0,0,0,4.35-2.34c23.68,17.41,56.64,28.75,85.06,16,8.06-3.62,15.33-10,18.29-18.31l9,3.64Z"></path><circle class="cls-2" cx="118.14" cy="153.89" r="17"></circle><circle class="cls-3" cx="124.14" cy="151.89" r="17"></circle><path class="cls-2" d="M233.68,128.15c11.74,40.68-13.2,89.87-28.54,89.87-21,0-72-16.78-83.73-57.46s3.87-80.93,34.87-89.88S221.93,87.46,233.68,128.15Z"></path><path class="cls-5" d="M202.93,124.13A31.18,31.18,0,0,1,225.78,122"></path><path class="cls-5" d="M154.05,126.42a36.76,36.76,0,0,1,31.23-1"></path><ellipse class="cls-1" cx="167.28" cy="139.45" rx="3.27" ry="7.94" transform="translate(15.86 295.97) rotate(-85.77)"></ellipse><ellipse class="cls-1" cx="218.77" cy="137.8" rx="7.94" ry="3.27" transform="translate(-25.74 53.74) rotate(-13.23)"></ellipse><path class="cls-5" d="M203.73,148.49s.29,5.65,1.62,8.3c.57,1.15,1.45,2.11,2,3.24,2.21,4.34-1.37,5.25-4.81,5.25"></path><path class="cls-5" d="M189.81,158.37a3.4,3.4,0,0,0,2.11,6.38"></path><path class="cls-6" d="M171.83,173.88a1.87,1.87,0,0,1,2.69-.5c2.07,1.46,5.87,4.56,11.27,5.64,7.36,1.46,13.75-1.48,15.27.41.86,1.07-.19,2.38-2.2,4A19.68,19.68,0,0,1,184,187.17c-7.09-1.33-12.4-9.53-12.4-12.43A1.72,1.72,0,0,1,171.83,173.88Z"></path><polygon class="cls-1" points="226.5 95.61 204.36 103.9 153.7 122.87 153.69 122.87 115.86 137.04 115.28 110.47 114.5 74.61 137.99 67.29 175.5 55.61 226.5 95.61"></polygon><path class="cls-7" d="M204.36,103.9l-50.66,19h0l-38.41-12.4-19.49-6.29c3.44-10.74,8-20.86,14.27-29.18a58.94,58.94,0,0,1,16.21-14.09c3.5,1.89,7.47,4,11.72,6.38C161.45,80.11,193.57,97.91,204.36,103.9Z"></path><path class="cls-8" d="M206.73,51.63c-10.11,4.59-33.67,16.11-46.9,29.19-17.18,17-42.24,55.34-42.24,55.34A210,210,0,0,1,121.9,109c3.36-14.7,9.08-31.32,14.17-39.29C139.87,63.77,146.53,56,153,49.55a109.1,109.1,0,0,1,20.13-3.67A71.47,71.47,0,0,1,206.73,51.63Z"></path></g></svg>
+              </div>
+              <h3 class="title">Doações</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <div class="icon3">
+                <svg viewBox="0 0 366.34 366.34" id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#00214e;}.cls-2{fill:#f2a196;}.cls-3{fill:#e88870;}.cls-4{fill:none;stroke:#00214e;stroke-miterlimit:10;}.cls-5{fill:#f2d4cf;}.cls-6{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="109.87" y1="140.89" x2="166.58" y2="65.41" gradientUnits="userSpaceOnUse"><stop offset="0.29" stop-color="#00214e"></stop><stop offset="0.51" stop-color="#6878b1"></stop><stop offset="0.79" stop-color="#00214e"></stop></linearGradient></defs><title>Artboards_Diversity_Avatars_by_Netguru</title><path class="cls-1" d="M258.38,149.67c-.41-33.19-6.33-69.59-36.31-89.15C195,42.86,158.32,43.72,131.45,61a77.55,77.55,0,0,0-10.22,7.8,105.09,105.09,0,0,0-26.66,39,130.84,130.84,0,0,0-9,54.2c1.67,37.14-2.36,74.39-2.36,111.68,0,1.29,0,2.77,1,3.59a4.27,4.27,0,0,0,3,.59c15.62-.87,29.45-3.57,44.53-6.08,18.8-3.12,39.07-2.23,58.1-3.42,11.33-.66,23.24-2.49,34.57-2,3.61.16,35.22,4.85,35.36,6.8C256.75,231.8,258.89,191,258.38,149.67ZM148,145.49l-14.09-10a130.31,130.31,0,0,0,31.94-16,70.63,70.63,0,0,0,21.84-23l5.71,3.61Z"></path><path class="cls-2" d="M296.41,280.37a184.56,184.56,0,0,1-226.48-1l48.66-22.81a47.68,47.68,0,0,0,4.35-2.34l1.12-.7c.4-.25.79-.51,1.18-.78a46.54,46.54,0,0,0,14.67-16.47c4-7.55,5.32-15.89,5.38-24.39,0-4.67-.19-9.34-.31-14q0-1.57-.06-3.15-.06-4.75-.1-9.51l.07,0,1.91,1,5.2,2.69,30.29,5.15,31.12,5.3.71,24,.2,6.88,0,1.07.47,15.87,11.47,4.67,9,3.64Z"></path><path class="cls-3" d="M214.12,223.37a12.12,12.12,0,0,1-7.34,2.11C192,223.89,163.14,212.3,145,190.85q0-1.57-.06-3.15l0-2.47,1.91,1,5.2,2.69,30.29,5.15,31.12,5.3Z"></path><circle class="cls-2" cx="119.82" cy="153.19" r="17"></circle><circle class="cls-3" cx="125.82" cy="151.19" r="17"></circle><path class="cls-2" d="M235.36,127.45c11.74,40.68-13.2,89.87-28.54,89.87-21,0-72-16.78-83.73-57.46S127,78.94,158,70,223.62,86.76,235.36,127.45Z"></path><path class="cls-4" d="M177.31,176.87a29.74,29.74,0,0,0,18.54,9.69"></path><path class="cls-4" d="M197.93,131.73c-.05.2,4.79,8.56,7.31,17.59a58,58,0,0,1,1.62,14.76H193.35"></path><path class="cls-4" d="M210.34,123.22a31.18,31.18,0,0,1,22.85-2.16"></path><path class="cls-4" d="M151.19,127.2a36.75,36.75,0,0,1,31.23-1"></path><path class="cls-1" d="M168.73,136.06c6.1.05,6.1,9.38,0,9.42h-.27c-6.1,0-6.1-9.37,0-9.42h.27Z"></path><path class="cls-1" d="M218.86,134.67c5.66,0,5.66,8.7,0,8.74h-.25c-5.67,0-5.67-8.7,0-8.74h.25Z"></path><path class="cls-1" d="M198.93,59.32a113.91,113.91,0,0,1-2.27,14,81,81,0,0,1-9,23.18,70.63,70.63,0,0,1-21.84,23,130.31,130.31,0,0,1-31.94,16,202.94,202.94,0,0,1-27.46,7.23c.31-7.63,0-17.07.94-25.93.7-6.36,2.1-12.43,4.92-17.32a79.54,79.54,0,0,1,32.19-30.3l.12-.06C159.38,61.51,182.29,54,198.93,59.32Z"></path><path class="cls-5" d="M296.41,280.37a184.56,184.56,0,0,1-226.48-1l48.66-22.81a46.83,46.83,0,0,0,6.65-3.82c.64-.44,1.28-.9,1.89-1.38a46.35,46.35,0,0,0,12.78-15.09,44.69,44.69,0,0,0,4.64-14.48,28.66,28.66,0,0,0,2.22,1.94A95.14,95.14,0,0,0,166.59,235a99,99,0,0,0,10.46,3.69,93.52,93.52,0,0,0,33,3.49c1.54-.12,3.09-.27,4.63-.38l.15,5.08v.33l12.1,4.92Z"></path><path class="cls-6" d="M187.64,96.54a70.63,70.63,0,0,1-21.84,23,130.31,130.31,0,0,1-31.94,16l-26.52-18.7-12.77-9a105.09,105.09,0,0,1,26.66-39A77.55,77.55,0,0,1,131.45,61l13,8.22Z"></path></g></svg>
+              </div>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
